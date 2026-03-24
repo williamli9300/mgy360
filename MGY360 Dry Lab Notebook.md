@@ -289,10 +289,10 @@ X 316 316 G/C 1
 </pre></code>
 </details>
 
-Location        | Variant     | Consequence | Impact   | Gene    | Transcript     | BIOTYPE        | Amino Acids | AA Position | Codons      | CDS Position | Strand | SIFT           |
-----------------|:-----------:|:-----------:|:--------:|:-------:|:--------------:|:--------------:|:-----------:|:-----------:|:-----------:|:------------:|:------:|:--------------:|
-`chrII:719805`  | `G`>`C`     | missense    | MODERATE | `SPO23` | `YBR250W_mRNA` | protein_coding | `G`>`A`     | 258         | `gGc`>`gCc` | 773          | `+`    | deleterious(0) |
-`chrVII:550402` | `G`>`C`     | missense    | MODERATE | `GSC2`  | `YGR032W_mRNA` | protein_coding | `L`>`F`     | 713         | `ttG`>`ttC` | 2139         | `+`    | deleterious(0) |
+| Location        | Variant     | Consequence | Impact   | GENE    | Transcript     | Amino Acids | AA Position | Codons      | CDS Position | Strand | SIFT           |
+|-----------------|:-----------:|:-----------:|:--------:|:-------:|:--------------:|:-----------:|:-----------:|:-----------:|:------------:|:------:|:--------------:|
+| `chrII:719805`  | `G`>`C`     | Missense    | Moderate | `SPO23` | `YBR250W_mRNA` | `G`>`A`     | 258         | `gGc`>`gCc` | 773          | `+`    | deleterious(0) |
+| `chrVII:550402` | `G`>`C`     | Missense    | Moderate | `GSC2`  | `YGR032W_mRNA` | `L`>`F`     | 713         | `ttG`>`ttC` | 2139         | `+`    | deleterious(0) |
 
 ## 4.2 Preliminary Literature Search
 ### 4.2.1 UniProt Entries:
