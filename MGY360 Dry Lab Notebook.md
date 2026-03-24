@@ -246,7 +246,7 @@ For example, a variant at `chrII:719,805` was specific to only the MUT strain. T
 ----
 # Laboratory 4: Identifying a Causative Variant<a name="lab4"></a>
 
-## 4.1 Further Variant Filtering.
+## 4.1 Further Variant Filtering
 
 Variant filtering was done manually in Microsoft Excel ([Appendix 3.1](#appx3.1)).
 
@@ -275,10 +275,24 @@ The top 9 variants by `QUAL` score (>50) were:
 
 Of these, two were classified as potentially affecting gene function by [Ensembl Variant Effect Predictor](https://www.ensembl.org/Tools/VEP?redirect=no)<sup>[1](#r4.1)</sup> based on *S. cerevisiae* assembly R64-1-1:
 
-Location        | Variant     | Consequence |IMPACT    | SYMBOL  | Feature_type | Feature        | BIOTYPE        | Amino_acids | Codons      | SIFT           |
-----------------|:-----------:|:-----------:|:--------:|:-------:|:------------:|:--------------:|:--------------:|:-----------:|:-----------:|:--------------:|
-`chrII:719805`  | `C`>`G`     | missense    | MODERATE | `SPO23` | Transcript   | `YBR250W_mRNA` | protein_coding | `G`>A`      | `gGc`>`gCc` | deleterious(0) |
-`chrVII:550402` | `C`>`G`     | missense    | MODERATE | `GSC2`  | Transcript   | `YGR032W_mRNA` | protein_coding | `L`>F`      | `ttG`>`ttC` | deleterious(0) |
+<details>
+<summary>Ensembl format VEP query (<i>click to expand</i>)</summary>
+<pre><code>II 719805 719805 C/G 1
+VII 550402 550402 C/G 1
+XVI 833465 833465 T/G 1
+IV 1524263 1524263 T/G 1
+XVI 853335 853335 T/C 1
+X 293 293 C/T 1
+X 302 302 C/T 1
+X 312 312 C/T 1
+X 316 316 G/C 1
+</pre></code>
+</details>
+
+Location        | Variant     | Consequence | IMPACT   | GENE    | Transcript     | BIOTYPE        | Amino_acids | AA Position | Codons      | CDS Position | Strand | SIFT           |
+----------------|:-----------:|:-----------:|:--------:|:-------:|:--------------:|:--------------:|:-----------:|:-----------:|:-----------:|:------------:|:------:|:--------------:|
+`chrII:719805`  | `G`>`C`     | missense    | MODERATE | `SPO23` | `YBR250W_mRNA` | protein_coding | `G`>`A`     | 258         | `gGc`>`gCc` | 258          | `+`    | deleterious(0) |
+`chrVII:550402` | `G`>`C`     | missense    | MODERATE | `GSC2`  | `YGR032W_mRNA` | protein_coding | `L`>`F`     | 713         | `ttG`>`ttC` | 713          | `+`    | deleterious(0) |
 
 ## 4.2 Preliminary Literature Search
 ### 4.2.1 UniProt Entries:
@@ -305,7 +319,7 @@ Location        | Variant     | Consequence |IMPACT    | SYMBOL  | Feature_type 
 7.  Mazur, P. *et al.* Differential expression and function of two homologous subunits of yeast 1,3-beta-D-glucan synthase. *Mol Cell Biol.* **15**, 5671–5681 (1995). doi: [10.1128/MCB.15.10.5671](https://doi.org/10.1128/MCB.15.10.5671).
     - *[Research] FKS2/GSC2 is an alternative, differentially-regulated catalytic subunit of FKS1/GSC1 that restores 1,3-β-ᴅ-glucan synthase function in* fks1Δ *cells.*
 8. Katiyar, S.K. *et al*. Fks1 and Fks2 are functionally redundant but differentially regulated in Candida glabrata: implications for echinocandin resistance. *Antimicrob. Agents Chemother.* **56**, 6304–6309 (2012). doi: [10.1128/AAC.00813-12](https://doi.org/10.1128/AAC.00813-12).
-  *[Research] FKS2 hotspot mutationns associated with* fks1Δ/fks3Δ *strains of* Candida *spp. yielded high-level resistance to echinocandins.*
+    - *[Research] FKS2 hotspot mutationns associated with* fks1Δ/fks3Δ *strains of* Candida *spp. yielded high-level resistance to echinocandins.*
 9.  Accoceberry, I. *et al.* Challenging SNP impact on caspofungin resistance by full-length FKS1 allele replacement in *Candida lusitaniae*. *J. Antimicrob. Chemother.*, **74**, 618–624 (2019). doi: [10.1093/jac/dky475](https://doi.org/10.1093/jac/dky475).
     - *[Research] SNVs or small indels in the hotspot (HS) regions HS1 and HS2 confer reduced susceptibility or resistance to caspofungin in* C. albicans.
 
