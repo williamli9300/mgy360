@@ -8,7 +8,14 @@
 # Contents
 - [**Laboratory 1:** Quality Control & Alignment](#lab1)
 - [**Laboratory 2:** Viewing the Alignments](#lab2)
+- [**Laboratory 3:** Calling Variants & Initial Prioritization](#lab3)
+- [**Laboratory 4:** Identifying a Causative Variant](#lab4)
 - [**Appendices**](#appx)
+  - [Appendix 1.1. Sequence Files](#appx1.1)
+  - [Appendix 1.2. FastQC Reports](#appx1.2)
+  - [Appendix 2.1. QualiMap BamQC Report (Downsampled Data)](#appx2.1)
+  - [Appendix 2.2. QualiMap BamQC Report (Entire Data)](#appx2.2)
+  - [Appendix 3.1. Variant Report](#appx3.1)
 
 <br>
 
@@ -190,7 +197,7 @@ $$
 \frac{N \times L}{G}
 $$
 
-where $N$ is equal to the number of aligned reads, $L$ is equal to the read length, and $G$ is equal to the size of the genome. Given the length of the *S. cerevisiae* S288C reference genome is approximately 12.1 Mb<sup>[3](#r2.3),[4](#r2.4)</sup>, theoretical mean whole-genome coverage at 2 $\times$ 10$^{4}$ reads would be given by $\frac{20~000\times151}{12.1\times10^6} = 0.25$.
+where $N$ is equal to the number of aligned reads, $L$ is equal to the read length, and $G$ is equal to the size of the genome. Given the length of the *S. cerevisiae* S288C reference genome is approximately 12.1 Mb<sup>[3](#r2.3),[4](#r2.4)</sup>, theoretical mean whole-genome coverage at 2 $\times$ 10 $^{4}$ reads would be given by $\frac{20~000\times151}{12.1\times10^6} = 0.25$.
 
 ## References
 
@@ -237,7 +244,7 @@ For example, a variant at `chrII:719,805` was specific to only the MUT strain. T
 2. <a name="r3.2"></a> bcftools(1) Manual Page. [https://www.htslib.org/doc/bcftools.html](https://www.htslib.org/doc/bcftools.html).
 
 ----
-Laboratory 4: Identifying a Causative Variant
+# Laboratory 4: Identifying a Causative Variant<a name="lab4"></a>
 
 ## 4.1 Further Variant Filtering.
 
@@ -300,8 +307,8 @@ Location        | Variant     | Consequence |IMPACT    | SYMBOL  | Feature_type 
 - `QualiMap_BamQC.html` : [html](https://htmlpreview.github.io/?https://github.com/williamli9300/mgy360/blob/master/qualimap-bamqc/QualiMap_BamQC.html)
 
 
-# Appendix 2.3. QualiMap BamQC Report for Entire Data <a name="appx2.2"></a>
+## Appendix 2.2. QualiMap BamQC Report for Entire Data <a name="appx2.2"></a>
 - `qualimapReport.html`: [html](https://htmlpreview.github.io/?https://github.com/morganalford/MGY360_2026/blob/main/Output/Qualimap/Andrews_008_H01_Will_9_S8_markdup_qualimap/qualimapReport.html)
 
-# Appendix 3.1. Variant Report <a name="appx3.1"></a>
+## Appendix 3.1. Variant Report <a name="appx3.1"></a>
 - `variants.xlsx`: [xlsx](./Variants.xlsx)
