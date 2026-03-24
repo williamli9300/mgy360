@@ -304,4 +304,4 @@ Location        | Variant     | Consequence |IMPACT    | SYMBOL  | Feature_type 
 - `qualimapReport.html`: [html](https://htmlpreview.github.io/?https://github.com/morganalford/MGY360_2026/blob/main/Output/Qualimap/Andrews_008_H01_Will_9_S8_markdup_qualimap/qualimapReport.html)
 
 # Appendix 3.1. Variant Report <a name="appx3.1"></a>
-- `variants.xlsx`: [xlsx](./variants.xlsx)
+- `variants.xlsx`: [xlsx](./Variants.xlsx)
