@@ -273,7 +273,7 @@ The top 9 variants by `QUAL` score (>50) were:
 | `chrX:312`       | `C`  | `T` | REF   | 53.41  | TEL10L       | few reads |
 | `chrX:316`       | `G`  | `C` | REF   | 53.41  | TEL10L       | few reads |
 
-Of these, two were classified as potentially affecting gene function:
+Of these, two were classified as potentially affecting gene function by [Ensembl Variant Effect Predictor](https://www.ensembl.org/Tools/VEP?redirect=no)<sup>[1](#r4.1)</sup> based on *S. cerevisiae* assembly R64-1-1:
 
 Location        | Variant     | Consequence |IMPACT    | SYMBOL  | Feature_type | Feature        | BIOTYPE        | Amino_acids | Codons      | SIFT           |
 ----------------|:-----------:|:-----------:|:--------:|:-------:|:------------:|:--------------:|:--------------:|:-----------:|:-----------:|:--------------:|
@@ -281,14 +281,36 @@ Location        | Variant     | Consequence |IMPACT    | SYMBOL  | Feature_type 
 `chrVII:550402` | `C`>`G`     | missense    | MODERATE | `GSC2`  | Transcript   | `YGR032W_mRNA` | protein_coding | `L`>F`      | `ttG`>`ttC` | deleterious(0) |
 
 ## 4.2 Preliminary Literature Search
-- P33757 - SPO23_YEAST. Uniprot. [https://www.uniprot.org/uniprotkb/P33757/entry](https://www.uniprot.org/uniprotkb/P33757/entry)
-  - SP023 is a yeast sporulation protein.
-- P40989 - FKS2_YEAST. Uniprot. [https://www.uniprot.org/uniprotkb/P40989/entry](https://www.uniprot.org/uniprotkb/P40989/entry)
-  - GSC2 is an alternate catalytic subunit of 1,3-β-glucan synthase.
-- Aggarwal, A. *et al.* Genome-wide Expression Profiling of the Response to Polyene, Pyrimidine, Azole, and Echinocandin Antifungal Agents in *Saccharomyces cerevisiae*. *J. Biol. Chem.* **278**, 34998–35015 (2003). doi: [10.1074/jbc.M306291200](https://doi.org/10.1074/jbc.M306291200).
-  - Beta glucan synthase involved in cell wall repair when *S. cerevisiae* is exposed to antifungal agents.
+### 4.2.1 UniProt Entries:
+1. P33757 - SPO23_YEAST. Uniprot. [https://www.uniprot.org/uniprotkb/P33757/entry](https://www.uniprot.org/uniprotkb/P33757/entry)
+    - SP023 is a yeast sporulation protein.
+2. P40989 - FKS2_YEAST. Uniprot. [https://www.uniprot.org/uniprotkb/P40989/entry](https://www.uniprot.org/uniprotkb/P40989/entry)
+    - GSC2 is an alternate catalytic subunit of 1,3-β-glucan synthase.
 
+### 4.2.2 Articles:  
+1. Aggarwal, A. *et al.* Genome-wide Expression Profiling of the Response to Polyene, Pyrimidine, Azole, and Echinocandin Antifungal Agents in *Saccharomyces cerevisiae*. *J. Biol. Chem.* **278**, 34998–35015 (2003). doi: [10.1074/jbc.M306291200](https://doi.org/10.1074/jbc.M306291200).
+    - *[Research] Gene expression profiling of* S. cerevisiae *in response to antifungal agents shows GSC1 (aka FKS1) is induced and GSC2, homologous to GSC1, is induced in* fks1Δ *cells.*
+2. Douglas, C.M. *et al*. Identification of the FKS1 gene of Candida albicans as the essential target of 1,3-beta-D-glucan synthase inhibitors. *Antimicrob. Agents Chemother.* **41**, 2471–2479 (1997). doi: [10.1128/aac.41.11.2471](https://doi.org/10.1128/aac.41.11.2471).
+    - *[Research] 1,3-β-ᴅ-glucan synthase, encoded by FKS1 (also known as GSC1) is the essential target of echinocandins (incl. caspofungin, micafungin) in* C. albicans.
 
+3. Hector, R.F. Compounds active against cell walls of medically important fungi. *Clin. Microbiol. Rev.* **6**, 1–21 (1993). doi:[10.1128/cmr.6.1.1](https://doi.org/10.1128/cmr.6.1.1).
+    - *[Review] Echinocandins inhibit glucan synthesis in* C. albicans *and* S. cerevisiae.
+
+4. Gruner, J., Traxler, P. Papulacandin, a new antibiotic, active especially against yeasts. *Experientia* **33**, 137 (1977). [10.1007/BF01936812](https://doi.org/10.1007/BF01936812).
+    - *[Report] Papulacandin, a novel echinocandin, shown to be active against* Candida albicans *through inhibition of structural glucan synthesis. (Cited in Hector 1993.)*
+5. Mizoguchi, J. *et al.* On the mode of action of a new antifungal antibiotic, aculeacin A: inhibition of cell wall synthesis in Saccharomyces cerevisiae. *J. Antibiot. (Tokyo)*. **30**, 308-313 (1977). doi: [10.7164/antibiotics.30.308](https://doi.org/10.7164/antibiotics.30.308).
+    - *[Research] Aculeacin, a novel echinocandin, shown to be active against* Saccharomyces cerevisiae *through inhibition of structural glucan synthesis. (Cited in Hector 1993.)*
+6. Mio, T. *et al*. Cloning of the Candida albicans homolog of Saccharomyces cerevisiae GSC1/FKS1 and its involvement in beta-1,3-glucan synthesis. *J. Bacteriol.* **179**, 4096–4105 (1997). [10.1128/jb.179.13.4096-4105.1997](https://doi.org/10.1128/jb.179.13.4096-4105.1997).
+    - *[Research] Cloning of the* Saccharomyces cerevisiae *homologue of the* Candida albicans *1,3-β-ᴅ-glucan synthase gene GSC1/FKS1.*
+7.  Mazur, P. *et al.* Differential expression and function of two homologous subunits of yeast 1,3-beta-D-glucan synthase. *Mol Cell Biol.* **15**, 5671–5681 (1995). doi: [10.1128/MCB.15.10.5671](https://doi.org/10.1128/MCB.15.10.5671).
+    - *[Research] FKS2/GSC2 is an alternative, differentially-regulated catalytic subunit of FKS1/GSC1 that restores 1,3-β-ᴅ-glucan synthase function in* fks1Δ *cells.*
+8. Katiyar, S.K. *et al*. Fks1 and Fks2 are functionally redundant but differentially regulated in Candida glabrata: implications for echinocandin resistance. *Antimicrob. Agents Chemother.* **56**, 6304–6309 (2012). doi: [10.1128/AAC.00813-12](https://doi.org/10.1128/AAC.00813-12).
+  *[Research] FKS2 hotspot mutationns associated with* fks1Δ/fks3Δ *strains of* Candida *spp. yielded high-level resistance to echinocandins.*
+9.  Accoceberry, I. *et al.* Challenging SNP impact on caspofungin resistance by full-length FKS1 allele replacement in *Candida lusitaniae*. *J. Antimicrob. Chemother.*, **74**, 618–624 (2019). doi: [10.1093/jac/dky475](https://doi.org/10.1093/jac/dky475).
+    - *[Research] SNVs or small indels in the hotspot (HS) regions HS1 and HS2 confer reduced susceptibility or resistance to caspofungin in* C. albicans.
+
+## References:
+1.  <a name="r4.1"></a> McLaren, W. *et al.* The Ensembl Variant Effect Predictor. *Genome Biol.* **17**, 122 (2016). doi: [10.1186/s13059-016-0974-4](https://doi.org/10.1186/s13059-016-0974-4)
 
 ----
 # Appendices <a name="appx"></a>
@@ -300,8 +322,12 @@ Location        | Variant     | Consequence |IMPACT    | SYMBOL  | Feature_type 
 
 ## Appendix 1.2. FastQC Reports for [Forward](# "Andrews_008_H01_Will_9_S8_R1_5000.fastq") and [Reverse](# "Andrews_008_H01_Will_9_S8_R2_5000.fastq") Reads <a name="appx1.2"></a>
 
-- `Andrews_008_H01_Will_9_S8_R1_5000_FastQC.html`: [html](https://htmlpreview.github.io/?https://github.com/williamli9300/mgy360/blob/master/fastqc/Andrews_008_H01_Will_9_S8_R2_5000_FastQC.html)
-- `Andrews_008_H01_Will_9_S8_R2_5000_FastQC.html`: [html](https://htmlpreview.github.io/?https://github.com/williamli9300/mgy360/blob/master/fastqc/Andrews_008_H01_Will_9_S8_R2_5000_FastQC.html)
+- FastQC Reports for Downsampled Data Set
+  - `Andrews_008_H01_Will_9_S8_R1_5000_FastQC.html`: [html](https://htmlpreview.github.io/?https://github.com/williamli9300/mgy360/blob/master/fastqc/Andrews_008_H01_Will_9_S8_R2_5000_FastQC.html)
+  - `Andrews_008_H01_Will_9_S8_R2_5000_FastQC.html`: [html](https://htmlpreview.github.io/?https://github.com/williamli9300/mgy360/blob/master/fastqc/Andrews_008_H01_Will_9_S8_R2_5000_FastQC.html)
+- FastQC Reports for Entire Data Set
+  - `Andrews_008_H01_Will_9_S8_R1_001_fastqc.html`: [html](https://htmlpreview.github.io/?https://github.com/morganalford/MGY360_2026/blob/main/Output/FastQC/Andrews_008_H01_Will_9_S8_R1_001_fastqc.html)
+  - `Andrews_008_H01_Will_9_S8_R1_001_fastqc.html`: [html](https://htmlpreview.github.io/?https://github.com/morganalford/MGY360_2026/blob/main/Output/FastQC/Andrews_008_H01_Will_9_S8_R2_001_fastqc.html)
 
 ## Appendix 2.1. QualiMap BamQC Report for Downsampled Data <a name="appx2.1"></a>
 - `QualiMap_BamQC.html` : [html](https://htmlpreview.github.io/?https://github.com/williamli9300/mgy360/blob/master/qualimap-bamqc/QualiMap_BamQC.html)
