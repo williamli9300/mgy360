@@ -289,10 +289,10 @@ X 316 316 G/C 1
 </pre></code>
 </details>
 
-Location        | Variant     | Consequence | IMPACT   | GENE    | Transcript     | BIOTYPE        | Amino_acids | AA Position | Codons      | CDS Position | Strand | SIFT           |
+Location        | Variant     | Consequence | Impact   | Gene    | Transcript     | BIOTYPE        | Amino Acids | AA Position | Codons      | CDS Position | Strand | SIFT           |
 ----------------|:-----------:|:-----------:|:--------:|:-------:|:--------------:|:--------------:|:-----------:|:-----------:|:-----------:|:------------:|:------:|:--------------:|
-`chrII:719805`  | `G`>`C`     | missense    | MODERATE | `SPO23` | `YBR250W_mRNA` | protein_coding | `G`>`A`     | 258         | `gGc`>`gCc` | 258          | `+`    | deleterious(0) |
-`chrVII:550402` | `G`>`C`     | missense    | MODERATE | `GSC2`  | `YGR032W_mRNA` | protein_coding | `L`>`F`     | 713         | `ttG`>`ttC` | 713          | `+`    | deleterious(0) |
+`chrII:719805`  | `G`>`C`     | missense    | MODERATE | `SPO23` | `YBR250W_mRNA` | protein_coding | `G`>`A`     | 258         | `gGc`>`gCc` | 773          | `+`    | deleterious(0) |
+`chrVII:550402` | `G`>`C`     | missense    | MODERATE | `GSC2`  | `YGR032W_mRNA` | protein_coding | `L`>`F`     | 713         | `ttG`>`ttC` | 2139         | `+`    | deleterious(0) |
 
 ## 4.2 Preliminary Literature Search
 ### 4.2.1 UniProt Entries:
@@ -324,7 +324,7 @@ Location        | Variant     | Consequence | IMPACT   | GENE    | Transcript   
     - *[Research] SNVs or small indels in the hotspot (HS) regions HS1 and HS2 confer reduced susceptibility or resistance to caspofungin in* C. albicans.
 
 ## References:
-1.  <a name="r4.1"></a> McLaren, W. *et al.* The Ensembl Variant Effect Predictor. *Genome Biol.* **17**, 122 (2016). doi: [10.1186/s13059-016-0974-4](https://doi.org/10.1186/s13059-016-0974-4)
+1.  <a name="r4.1"></a> McLaren, W. *et al.* The Ensembl Variant Effect Predictor. *Genome Biol.* **17**, 122 (2016). doi: [10.1186/s13059-016-0974-4](https://doi.org/10.1186/s13059-016-0974-4).
 
 ----
 # Appendices <a name="appx"></a>
