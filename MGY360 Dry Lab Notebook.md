@@ -300,7 +300,7 @@ X 316 316 G/C 1
 `GSC2` Protein Location: `qpkivlglmiatdfilffldtyL`
 ![Protein Change](./img/L713F.png)
 
-Figures generated with `snipit`<sup>[2](#r4.2)</sup>
+Figures generated with `snipit`<sup>[2](#r4.2)</sup>.
 
 ## 4.2 Preliminary Literature Search
 ### 4.2.1 UniProt Entries:
