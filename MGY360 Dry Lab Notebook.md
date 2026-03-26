@@ -294,13 +294,25 @@ X 316 316 G/C 1
 | `chrII:719805`  | `G`>`C`     | Missense    | Moderate | `SPO23` | `YBR250W_mRNA` | `G`>`A`     | 258         | `gGc`>`gCc` | 773          | `+`    | deleterious(0) |
 | `chrVII:550402` | `G`>`C`     | Missense    | Moderate | `GSC2`  | `YGR032W_mRNA` | `L`>`F`     | 713         | `ttG`>`ttC` | 2139         | `+`    | deleterious(0) |
 
+`SPO23` Genomic Location: `tttcccagcaagtttctcttccttctttgG`
+> ![SPO23snv](./img/G773C.png)
+
+`SPO23` Protein Location: `gtydypftftlqantfpasfssffG`
+> ![SPO23 Protein Change](./img/G258A.png)
+
 `GSC2` Genomic Location: `ttttgttctttttggatacctacttG`
-![SNV](./img/G2139C.png)
+> ![GSC2snv](./img/G2139C.png)
 
 `GSC2` Protein Location: `qpkivlglmiatdfilffldtyL`
-![Protein Change](./img/L713F.png)
+> ![GSC2 Protein Change](./img/L713F.png)
 
-Figures generated with `snipit`<sup>[2](#r4.2)</sup>.
+<details>
+<summary>Figures generated with <code>snipit</code><sup><a href="#r4.2">2</a></sup>. Sequence files can be found in <a href="#appx4.1">Appendix 4.1</a>.</summary>
+<pre><code>snipit GSC2SNV.fasta --sequence-type nt --output-file G773C --solid-background --height 4 --width 10</pre></code>
+<pre><code>snipit GSC2Prot.fasta --sequence-type aa --output-file G258A --solid-background --height 4 --width 10</pre></code>
+<pre><code>snipit SPO23SNV.fasta --sequence-type nt --output-file G2139C --solid-background --height 4 --width 10</pre></code>
+<pre><code>snipit SPO23Prot.fasta --sequence-type aa --output-file G258A --solid-background --height 4 --width 10</pre></code>
+</details>
 
 ## 4.2 Preliminary Literature Search
 ### 4.2.1 UniProt Entries:
@@ -362,3 +374,9 @@ Figures generated with `snipit`<sup>[2](#r4.2)</sup>.
 
 ## Appendix 3.1. Variant Report <a name="appx3.1"></a>
 - `variants.xlsx`: [xlsx](./Variants.xlsx)
+
+## Appendix 4.1. Squence Files for SNV & Protein Variants. <a name="appx4.1"></a>
+- `SPO23SNV.fasta`: [fasta](./fasta/SPO23SNV.fasta)
+- `SPO23Prot.fasta`: [fasta](./fasta/SPO23Prot.fasta)
+- `GSC2SNV.fasta`: [fasta](./fasta/GSC2SNV.fasta)
+- `GSC2Prot.fasta`: [fasta](./fasta/GSC2Prot.fasta)
