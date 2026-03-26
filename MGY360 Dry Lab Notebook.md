@@ -294,6 +294,14 @@ X 316 316 G/C 1
 | `chrII:719805`  | `G`>`C`     | Missense    | Moderate | `SPO23` | `YBR250W_mRNA` | `G`>`A`     | 258         | `gGc`>`gCc` | 773          | `+`    | deleterious(0) |
 | `chrVII:550402` | `G`>`C`     | Missense    | Moderate | `GSC2`  | `YGR032W_mRNA` | `L`>`F`     | 713         | `ttG`>`ttC` | 2139         | `+`    | deleterious(0) |
 
+`GSC2` Genomic Location: `ttttgttctttttggatacctacttG`
+![SNV](./img/G2139C.png)
+
+`GSC2` Protein Location: `qpkivlglmiatdfilffldtyL`
+![Protein Change](./img/L713F.png)
+
+Figures generated with `snipit`<sup>[2](#r4.2)</sup>
+
 ## 4.2 Preliminary Literature Search
 ### 4.2.1 UniProt Entries:
 1. P33757 - SPO23_YEAST. Uniprot. [https://www.uniprot.org/uniprotkb/P33757/entry](https://www.uniprot.org/uniprotkb/P33757/entry)
@@ -307,14 +315,14 @@ X 316 316 G/C 1
 2. Douglas, C.M. *et al*. Identification of the FKS1 gene of Candida albicans as the essential target of 1,3-beta-D-glucan synthase inhibitors. *Antimicrob. Agents Chemother.* **41**, 2471–2479 (1997). doi: [10.1128/aac.41.11.2471](https://doi.org/10.1128/aac.41.11.2471).
     - *[Research] 1,3-β-ᴅ-glucan synthase, encoded by FKS1 (also known as GSC1) is the essential target of echinocandins (incl. caspofungin, micafungin) in* C. albicans.
 
-3. Hector, R.F. Compounds active against cell walls of medically important fungi. *Clin. Microbiol. Rev.* **6**, 1–21 (1993). doi:[10.1128/cmr.6.1.1](https://doi.org/10.1128/cmr.6.1.1).
+3. Hector, R.F. Compounds active against cell walls of medically important fungi. *Clin. Microbiol. Rev.* **6**, 1–21 (1993). doi: [10.1128/cmr.6.1.1](https://doi.org/10.1128/cmr.6.1.1).
     - *[Review] Echinocandins inhibit glucan synthesis in* C. albicans *and* S. cerevisiae.
 
-4. Gruner, J., Traxler, P. Papulacandin, a new antibiotic, active especially against yeasts. *Experientia* **33**, 137 (1977). [10.1007/BF01936812](https://doi.org/10.1007/BF01936812).
+4. Gruner, J., Traxler, P. Papulacandin, a new antibiotic, active especially against yeasts. *Experientia* **33**, 137 (1977). doi: [10.1007/BF01936812](https://doi.org/10.1007/BF01936812).
     - *[Report] Papulacandin, a novel echinocandin, shown to be active against* Candida albicans *through inhibition of structural glucan synthesis. (Cited in Hector 1993.)*
 5. Mizoguchi, J. *et al.* On the mode of action of a new antifungal antibiotic, aculeacin A: inhibition of cell wall synthesis in Saccharomyces cerevisiae. *J. Antibiot. (Tokyo)*. **30**, 308-313 (1977). doi: [10.7164/antibiotics.30.308](https://doi.org/10.7164/antibiotics.30.308).
     - *[Research] Aculeacin, a novel echinocandin, shown to be active against* Saccharomyces cerevisiae *through inhibition of structural glucan synthesis. (Cited in Hector 1993.)*
-6. Mio, T. *et al*. Cloning of the Candida albicans homolog of Saccharomyces cerevisiae GSC1/FKS1 and its involvement in beta-1,3-glucan synthesis. *J. Bacteriol.* **179**, 4096–4105 (1997). [10.1128/jb.179.13.4096-4105.1997](https://doi.org/10.1128/jb.179.13.4096-4105.1997).
+6. Mio, T. *et al*. Cloning of the Candida albicans homolog of Saccharomyces cerevisiae GSC1/FKS1 and its involvement in beta-1,3-glucan synthesis. *J. Bacteriol.* **179**, 4096–4105 (1997). doi: [10.1128/jb.179.13.4096-4105.1997](https://doi.org/10.1128/jb.179.13.4096-4105.1997).
     - *[Research] Cloning of the* Saccharomyces cerevisiae *homologue of the* Candida albicans *1,3-β-ᴅ-glucan synthase gene GSC1/FKS1.*
 7.  Mazur, P. *et al.* Differential expression and function of two homologous subunits of yeast 1,3-beta-D-glucan synthase. *Mol Cell Biol.* **15**, 5671–5681 (1995). doi: [10.1128/MCB.15.10.5671](https://doi.org/10.1128/MCB.15.10.5671).
     - *[Research] FKS2/GSC2 is an alternative, differentially-regulated catalytic subunit of FKS1/GSC1 that restores 1,3-β-ᴅ-glucan synthase function in* fks1Δ *cells.*
@@ -325,6 +333,8 @@ X 316 316 G/C 1
 
 ## References:
 1.  <a name="r4.1"></a> McLaren, W. *et al.* The Ensembl Variant Effect Predictor. *Genome Biol.* **17**, 122 (2016). doi: [10.1186/s13059-016-0974-4](https://doi.org/10.1186/s13059-016-0974-4).
+2.  <a name="r4.2"></a> O’Toole, Á *et al*. Publication-ready single nucleotide polymorphism visualization with snipit. *Bioinformatics* **40**, btae510 (2024). doi: [10.1093/bioinformatics/btae510](https://doi.org/10.1093/bioinformatics/btae510)
+
 
 ----
 # Appendices <a name="appx"></a>
