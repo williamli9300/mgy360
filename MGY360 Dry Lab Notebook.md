@@ -220,7 +220,7 @@ where $N$ is equal to the number of aligned reads, $L$ is equal to the read leng
 
 Default minimum mapping quality for a base to be considered is (`-q`, `--min-MQ`) is **0**, and default minimum base quality for a base to be considered (`-Q`, `--min-BQ`) is **13**.
 
-**bcftools call** information abbreviations:
+**bcftools call** information abbreviations<sup>[2](#r3.2)</sup>:
 - **DP:** depth — read depth at a given site.
 - **AC:** allele count — number of copies of given allele.
 - **MQ:** mapping quality — confidence that a read is correct ($-10log_{10}(P)$, where $P$ is the probability that a read is wrong.)
@@ -331,7 +331,7 @@ X 316 316 G/C 1
     - *[Review] Echinocandins inhibit glucan synthesis in* C. albicans *and* S. cerevisiae.
 
 4. Gruner, J., Traxler, P. Papulacandin, a new antibiotic, active especially against yeasts. *Experientia* **33**, 137 (1977). doi: [10.1007/BF01936812](https://doi.org/10.1007/BF01936812).
-    - *[Report] Papulacandin, a novel echinocandin, shown to be active against* Candida albicans *through inhibition of structural glucan synthesis. (Cited in Hector 1993.)*
+    - *[Research] Papulacandin, a novel echinocandin, shown to be active against* Candida albicans *through inhibition of structural glucan synthesis. (Cited in Hector 1993.)*
 5. Mizoguchi, J. *et al.* On the mode of action of a new antifungal antibiotic, aculeacin A: inhibition of cell wall synthesis in Saccharomyces cerevisiae. *J. Antibiot. (Tokyo)*. **30**, 308-313 (1977). doi: [10.7164/antibiotics.30.308](https://doi.org/10.7164/antibiotics.30.308).
     - *[Research] Aculeacin, a novel echinocandin, shown to be active against* Saccharomyces cerevisiae *through inhibition of structural glucan synthesis. (Cited in Hector 1993.)*
 6. Mio, T. *et al*. Cloning of the Candida albicans homolog of Saccharomyces cerevisiae GSC1/FKS1 and its involvement in beta-1,3-glucan synthesis. *J. Bacteriol.* **179**, 4096–4105 (1997). doi: [10.1128/jb.179.13.4096-4105.1997](https://doi.org/10.1128/jb.179.13.4096-4105.1997).
@@ -339,7 +339,7 @@ X 316 316 G/C 1
 7.  Mazur, P. *et al.* Differential expression and function of two homologous subunits of yeast 1,3-beta-D-glucan synthase. *Mol Cell Biol.* **15**, 5671–5681 (1995). doi: [10.1128/MCB.15.10.5671](https://doi.org/10.1128/MCB.15.10.5671).
     - *[Research] FKS2/GSC2 is an alternative, differentially-regulated catalytic subunit of FKS1/GSC1 that restores 1,3-β-ᴅ-glucan synthase function in* fks1Δ *cells.*
 8. Katiyar, S.K. *et al*. Fks1 and Fks2 are functionally redundant but differentially regulated in Candida glabrata: implications for echinocandin resistance. *Antimicrob. Agents Chemother.* **56**, 6304–6309 (2012). doi: [10.1128/AAC.00813-12](https://doi.org/10.1128/AAC.00813-12).
-    - *[Research] FKS2 hotspot mutationns associated with* fks1Δ/fks3Δ *strains of* Candida *spp. yielded high-level resistance to echinocandins.*
+    - *[Research] FKS2 hotspot mutations associated with* fks1Δ/fks3Δ *strains of* Candida *spp. yielded high-level resistance to echinocandins.*
 9.  Accoceberry, I. *et al.* Challenging SNP impact on caspofungin resistance by full-length FKS1 allele replacement in *Candida lusitaniae*. *J. Antimicrob. Chemother.*, **74**, 618–624 (2019). doi: [10.1093/jac/dky475](https://doi.org/10.1093/jac/dky475).
     - *[Research] SNVs or small indels in the hotspot (HS) regions HS1 and HS2 confer reduced susceptibility or resistance to caspofungin in* C. albicans.
 
@@ -380,3 +380,8 @@ X 316 316 G/C 1
 - `SPO23Prot.fasta`: [fasta](./fasta/SPO23Prot.fasta)
 - `GSC2SNV.fasta`: [fasta](./fasta/GSC2SNV.fasta)
 - `GSC2Prot.fasta`: [fasta](./fasta/GSC2Prot.fasta)
+
+## Appendix 5.1. Master Data for All Class Variants:
+- All Class Raw Variants (Aggregated): `Master_VCF.xlsx`: [xlsx](./Master_VCF.xlsx)
+- All Class Variants of Interest (Coding): `Master_VEP.xlsx`: [xlsx](./Master_VEP.xlsx)
+- VCF Combining Script: `combine_vcf.py`: [py](./combine_vcf.py)
